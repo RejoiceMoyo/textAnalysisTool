@@ -22,6 +22,7 @@ public class TextAnalysisToolGUI {
         analyzeButton.addActionListener(new AnalyzeButtonListener());
         
         JPanel panel = new JPanel();
+        panel.setBackground(Color.PINK);
         panel.add(new JScrollPane(inputTextArea));
         panel.add(analyzeButton);
         panel.add(new JScrollPane(outputTextArea));
